@@ -15,3 +15,7 @@ This repository provides a lightweight alpine-based container image with _Poetry
 ### Version Poetry
 
 ```docker run -it python_alpine_poetry```
+
+### DockerHub
+
+```docker pull avt0x/python-alpine-poetry:latest```
