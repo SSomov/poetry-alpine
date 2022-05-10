@@ -18,17 +18,13 @@ RUN apk add --no-cache \
     gcc \
     libressl-dev \
     musl-dev \
-    jpeg-dev \
-    zlib-dev \
     libffi-dev && \
     curl -sSL https://install.python-poetry.org | python3 - && \
     apk del \
-        curl \
-        gcc \
-        libressl-dev \
-        jpeg-dev \
-        zlib-dev \
-        musl-dev \
-        libffi-dev
+    curl \
+    gcc \
+    libressl-dev \
+    musl-dev \
+    libffi-dev
 
 CMD ["poetry", "--version"]
