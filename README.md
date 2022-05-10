@@ -1,7 +1,6 @@
 # Python Alpine Poetry Docker Image
-[![Version](https://img.shields.io/docker/v/avt0x/python-alpine-poetry)](https://hub.docker.com/r/avt0x/python-alpine-poetry)
 [![GitHub last commit](https://img.shields.io/github/last-commit/SSomov/python-alpine-poetry)](https://github.com/SSomov/python-alpine-poetry)
-![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/avt0x/python-alpine-poetry)
+![Docker Image Size (tag)](https://img.shields.io/docker/image-size/avt0x/python-alpine-poetry/latest)
 
 [Poetry](https://python-poetry.org/docs/) is a tool for
 **dependency management** and **packaging** in Python.
