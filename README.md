@@ -22,4 +22,4 @@ This repository provides a lightweight alpine-based container image with _Poetry
 
 ### Using
 
-```FROM avt0x/python-alpine-poetry:latest```
+```FROM avt0x/poetry:latest```
