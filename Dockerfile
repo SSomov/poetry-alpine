@@ -13,18 +13,13 @@ ENV PYTHONUNBUFFERED=1 \
 
 ENV PATH="/opt/poetry/bin:${PATH}"
 
-RUN apk add --no-cache \
+RUN apk add --no-cache --virtual .build-deps \
     curl \
     gcc \
     libressl-dev \
     musl-dev \
     libffi-dev && \
     curl -sSL https://install.python-poetry.org | python3 - && \
-    apk del \
-    curl \
-    gcc \
-    libressl-dev \
-    musl-dev \
-    libffi-dev
+    apk del .build-deps
 
 CMD ["poetry", "--version"]
