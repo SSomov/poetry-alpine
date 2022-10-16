@@ -1,4 +1,4 @@
-FROM python:3.10-alpine
+FROM python:3.10.8-alpine3.16
 
 # https://github.com/python-poetry/poetry/discussions/1879#discussioncomment-216865
 ENV PYTHONUNBUFFERED=1 \

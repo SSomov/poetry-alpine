@@ -10,7 +10,7 @@ This repository provides a lightweight alpine-based container image with _Poetry
 
 ### Build
 
-```docker build . -t poetry:latest```
+```docker build . -t avt0x/poetry:latest```
 
 ### Version Poetry
 
