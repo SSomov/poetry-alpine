@@ -14,7 +14,7 @@ This repository provides a lightweight alpine-based container image with _Poetry
 
 ### Version Poetry
 
-```docker run -it poetry```
+```docker run -it avt0x/poetry```
 
 ### DockerHub
 
